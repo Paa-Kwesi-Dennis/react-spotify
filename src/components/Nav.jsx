@@ -17,13 +17,13 @@ const Nav = () => {
             <Link className="nav-item nav-link" id="home" to="/">
               Home
             </Link>
-            <Link className="nav-item nav-link" id="logout" to="/search">
+            <Link className="nav-item nav-link" id="search" to="/search">
               Search
             </Link>
-            <Link className="nav-item nav-link" id="login" to="/artists">
+            <Link className="nav-item nav-link" id="artists" to="/artists">
               Artists
             </Link>
-            <Link className="nav-item nav-link" id="signUp" to="/about">
+            <Link className="nav-item nav-link" id="about" to="/about">
               About
             </Link>
           </div>

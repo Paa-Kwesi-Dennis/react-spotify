@@ -1,11 +1,13 @@
-// import Nav from '../components/Nav'
 import React from "react";
+import Header from "../components/Header";
 
 const Artists = () => {
   return (
     <>
-      {/* <Nav/> */}
-      <div>Artists</div>
+      <Header />
+      <h1 m-4 mb-7>
+        Artists Page
+      </h1>
     </>
   );
 };

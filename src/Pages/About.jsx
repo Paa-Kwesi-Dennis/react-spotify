@@ -1,11 +1,13 @@
 import React from "react";
-// import Nav from "../components/Nav";
+import Header from "../components/Header";
 
 const About = () => {
   return (
     <>
-      {/* <Nav /> */}
-      <div>About</div>
+      <Header />
+      <h1 m-4 mb-7>
+        About Page
+      </h1>
     </>
   );
 };

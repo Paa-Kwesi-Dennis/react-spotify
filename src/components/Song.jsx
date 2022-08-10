@@ -9,7 +9,6 @@ const Song = ({ song }) => {
           : song.result.full_title}
       </a>
       <a target="_blank" rel="noreferrer" href={song.result.url}>
-        {" "}
         <img
           src={song.result.header_image_thumbnail_url}
           alt={song.result.full_title}

@@ -111,3 +111,10 @@ span {
     height: inherit;
     width: inherit;
 }
+
+#home, 
+#about,
+#artists,
+#search {
+    color: #ffffff;
+}

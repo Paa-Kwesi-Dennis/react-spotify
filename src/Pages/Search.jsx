@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "../components/Header";
 import SearchForm from "../components/SearchForm";
-import Songs from "../components/Songs";
+import SongsList from "../components/SongsList";
 import Loading from "../components/Loading";
 
 function App() {

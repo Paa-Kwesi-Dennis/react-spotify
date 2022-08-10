@@ -1,6 +1,6 @@
 import React from "react";
 
-const Song = ({ song }) => {
+const SongForSearch = ({ song }) => {
   return (
     <li className="list-group-item" key={song.result.id}>
       <a target="_blank" rel="noreferrer" href={song.result.url}>
@@ -18,4 +18,4 @@ const Song = ({ song }) => {
   );
 };
 
-export default Song;
+export default SongForSearch;
